@@ -102,6 +102,57 @@ main {
     margin-top: 0;
 }
 
+.previous-sermons {
+  margin-top: 2.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #ddd;
+}
+
+.previous-sermons h2 {
+  margin-bottom: 0.5rem;
+}
+
+.previous-sermons > p {
+  margin-bottom: 1.25rem;
+  line-height: 1.6;
+}
+
+.sermon-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sermon-list li {
+  border-bottom: 1px solid #ddd;
+}
+
+.sermon-list a {
+  display: block;
+  padding: 1rem 0;
+  text-decoration: none;
+}
+
+.sermon-list a:hover .sermon-title {
+  text-decoration: underline;
+}
+
+.sermon-date,
+.sermon-title {
+  display: block;
+}
+
+.sermon-date {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 0.25rem;
+}
+
+.sermon-title {
+  color: inherit;
+  font-weight: 600;
+}
+
 footer {
     border-top: 1px solid var(--border);
     background: var(--white);
